@@ -1,0 +1,45 @@
+.para_bg {
+  background: linear-gradient(
+    to right,
+    rgba(250, 250, 2505, 0.8),
+    rgba(250, 250, 250, 0.8)
+  );
+}
+.para_bg2 {
+  background: linear-gradient(
+    to right,
+    rgba(250, 250, 2505, 0.3),
+    rgba(250, 250, 250, 0.3)
+  );
+  color: #fff;
+}
+.grid-div {
+  padding: 5px;
+  display: grid;
+  grid-template: 1rem / repeat(9, 1rem);
+
+  grid-auto-columns: 1.4rem;
+  grid-auto-rows: 1.5rem;
+  gap: 6px;
+  /* background-color: rgba(204, 204, 204); */
+}
+.grid-div img {
+  display: block;
+  min-width: 100%;
+  height: 100%;
+}
+.image1 {
+  grid-area: 1/1/4/8;
+}
+.image2 {
+  grid-area: 1/8/5/12;
+}
+.image3 {
+  grid-area: 1/12/7/17;
+}
+.image4 {
+  grid-area: 4/1/7/8;
+}
+.image5 {
+  grid-area: 5/8/7/12;
+}
