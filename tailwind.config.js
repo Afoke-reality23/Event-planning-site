@@ -2,7 +2,13 @@
 export default {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        script: ["Dancing Script", "cursive"],
+        nunito: ["Nunito"],
+      },
+    },
   },
   plugins: [],
 };
